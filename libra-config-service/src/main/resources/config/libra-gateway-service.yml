@@ -20,8 +20,16 @@ zuul:
     account-service:
         path: /accounts/**
         serviceId: account-service
-        stripPrefix: false
-        sensitiveHeaders:
+        stripPrefix: true
+        
+account-service:
+  ribbon:
+    listOfServers: localhost:8402
 
 server:
   port: 8300
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8200/eureka/
