@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	<parent>
+        <artifactId>libra-micro-service</artifactId>
+        <groupId>com.github.tjpanda88</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>libra-config-service</artifactId>
+    <packaging>jar</packaging>
+    <name>Libra Micro System for Java (1.x) Config Service</name>
+    <description>Config Service</description>
+    <url>https://github.com/tjpanda88/libra-micro-service</url>
+    
+	<dependencies>
+
+		<!-- == Begin Spring CLOUD == -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
+		<!-- == End Spring IO CLOUD == -->
+
+	</dependencies>
+    <properties>
+    </properties>
+</project>
