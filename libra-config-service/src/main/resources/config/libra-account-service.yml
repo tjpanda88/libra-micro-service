@@ -1,6 +1,6 @@
 server:
   port: 8402
-  
+
 micro-system:
   path:
     database: D:/Temp/Temp/20170413
