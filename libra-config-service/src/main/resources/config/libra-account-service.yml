@@ -1,6 +1,21 @@
 server:
   port: 8402
   
+micro-system:
+  path:
+    database: D:/Temp/Temp/20170413
+
+spring:
+  jpa:
+    show-sql: true  
+    hibernate:  
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.apache.derby.jdbc.EmbeddedDriver
+    url: jdbc:derby:D:/Temp/Temp/20170413/libra-account-service;create=true
+    username: dbuser
+    password: dbpass
+
 eureka:
   client:
     serviceUrl:
