@@ -28,7 +28,14 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
-		<!-- == End Spring IO CLOUD == -->
+		<!-- ==  End  Spring CLOUD == -->
+		
+		<!-- == Begin Spring BOOT == -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<!-- ==  End  Spring BOOT == -->
 
 	</dependencies>
     <properties>

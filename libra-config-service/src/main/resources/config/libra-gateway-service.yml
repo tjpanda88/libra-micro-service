@@ -1,3 +1,6 @@
+server:
+  port: 8300
+  
 hystrix:
   command:
     default:
@@ -19,15 +22,8 @@ zuul:
   routes:
     account-service:
         path: /accounts/**
-        serviceId: account-service
+        serviceId: libra-account-service
         stripPrefix: true
-        
-account-service:
-  ribbon:
-    listOfServers: localhost:8402
-
-server:
-  port: 8300
 
 eureka:
   client:
