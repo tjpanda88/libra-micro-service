@@ -12,7 +12,7 @@ spring:
       ddl-auto: update
   datasource:
     driver-class-name: org.apache.derby.jdbc.EmbeddedDriver
-    url: jdbc:derby:D:/Temp/Temp/20170413/libra-account-service;create=true
+    url: jdbc:derby:${micro-system.path.database}/${spring.application.name};create=true
     username: dbuser
     password: dbpass
 
