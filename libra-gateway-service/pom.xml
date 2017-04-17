@@ -37,6 +37,13 @@
 		</dependency>
 		<!-- ==  End  Spring BOOT == -->
 		
+		<!-- == Begin JDBC == -->
+		<dependency>
+		    <groupId>org.apache.derby</groupId>
+		    <artifactId>derby</artifactId>
+		</dependency>
+		<!-- == End JDBC == -->  
+		
 		<!-- == Begin Libra == -->
 		<dependency>
 		    <groupId>com.github.tjpanda88</groupId>

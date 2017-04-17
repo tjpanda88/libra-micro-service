@@ -50,7 +50,12 @@
 			<dependency>
 			    <groupId>org.apache.derby</groupId>
 			    <artifactId>derby</artifactId>
-			    <version>${org.apache.derby}</version>
+			    <version>${org.apache.derby.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>mysql</groupId>
+			    <artifactId>mysql-connector-java</artifactId>
+			    <version>${com.mysql.version}</version>
 			</dependency>
 			<!-- == End JDBC == -->       
 			
@@ -58,12 +63,12 @@
 			<dependency>
 			    <groupId>com.github.tjpanda88</groupId>
 			    <artifactId>libra-account-common</artifactId>
-			    <version>${com.github.tjpanda88.libra}</version>
+			    <version>${com.github.tjpanda88.libra.version}</version>
 			</dependency>
 			<dependency>
 			    <groupId>com.github.tjpanda88</groupId>
 			    <artifactId>libra-account-client</artifactId>
-			    <version>${com.github.tjpanda88.libra}</version>
+			    <version>${com.github.tjpanda88.libra.version}</version>
 			</dependency>
 			<!-- == End Libra == -->      
 
@@ -76,9 +81,10 @@
         <!-- == MyBatis3 == -->
         <org.mybatis.spring.boot.starter.version>1.2.0</org.mybatis.spring.boot.starter.version>
         <!-- == JDBC == -->
-        <org.apache.derby>10.13.1.1</org.apache.derby>
+        <org.apache.derby.version>10.13.1.1</org.apache.derby.version>
+        <com.mysql.version>6.0.6</com.mysql.version>
         <!-- == Libra == -->
-        <com.github.tjpanda88.libra>1.0.0-SNAPSHOT</com.github.tjpanda88.libra>
+        <com.github.tjpanda88.libra.version>1.0.0-SNAPSHOT</com.github.tjpanda88.libra.version>
         <!-- == Project Properties == -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
