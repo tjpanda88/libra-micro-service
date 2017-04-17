@@ -47,6 +47,13 @@
 		    <artifactId>derby</artifactId>
 		</dependency>
 		<!-- == End JDBC == -->  
+		
+		<!-- == Begin Libra == -->
+		<dependency>
+		    <groupId>com.github.tjpanda88</groupId>
+		    <artifactId>libra-account-common</artifactId>
+		</dependency>
+		<!-- == End Libra == -->  
 
 	</dependencies>
     <properties>
